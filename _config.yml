@@ -1,3 +1,8 @@
-theme: minima
+remote_theme: cotes2020/jekyll-theme-chirpy
 title: SBuntingCompiled's Portfolio
 description: This is where I share not only my skills, but interests and projects I have been working on.
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/

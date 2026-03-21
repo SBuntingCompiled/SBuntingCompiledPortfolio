@@ -1,9 +1,6 @@
 ---
 title: Spencer Bunting Portfolio
+layout: home
 ---
 
-# Skills
-
-# Interests
-
-# Projects
+Welcome to my portfolio!
