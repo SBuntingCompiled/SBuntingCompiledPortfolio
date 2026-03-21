@@ -1,3 +1,9 @@
 ---
-title: Welcome to my blog!
+title: Spencer Bunting Portfolio
 ---
+
+# Skills
+
+# Interests
+
+# Projects
