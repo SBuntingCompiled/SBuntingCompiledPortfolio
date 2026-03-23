@@ -1,6 +1,6 @@
 ---
 title: Interests
-layout: page
+layout: default
 permalink: /interests/
 ---
 

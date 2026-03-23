@@ -1,6 +1,6 @@
 ---
 title: Spencer Bunting Portfolio
-layout: home
+layout: default
 ---
 
 {% include nav.html %}
