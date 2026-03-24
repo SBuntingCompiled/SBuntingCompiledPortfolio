@@ -22,3 +22,6 @@ Welcome to my portfolio! Here you'll find information about my skills, interests
 
 [View my skills →]({{< relref "/skills/" >}})
 
+---
+
+## Recent Posts

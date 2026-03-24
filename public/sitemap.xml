@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/interests/homelab/</loc>
+  </url><url>
     <loc>http://localhost:1313/SBuntingCompiledPortfolio/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/interests/emacs/</loc>
+  </url><url>
     <loc>http://localhost:1313/SBuntingCompiledPortfolio/interests/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/interests/linux/</loc>
   </url><url>
     <loc>http://localhost:1313/SBuntingCompiledPortfolio/projects/</loc>
   </url><url>
