@@ -1,0 +1,34 @@
+baseURL = "https://sbuntingcompiled.github.io/SBuntingCompiledPortfolio/"
+title = "Spencer Bunting"
+theme = "m10c"
+
+[pagination]
+  pagerSize = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "skills"
+    name = "Skills"
+    url = "/skills/"
+    weight = 2
+  [[menu.main]]
+    identifier = "interests"
+    name = "Interests"
+    url = "/interests/"
+    weight = 3
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+[params]
+  author = "Spencer Bunting"
+  description = " "
+  menu_item_separator = " - "
+  avatar = "images/avatar.jpg"

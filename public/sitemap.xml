@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/interests/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/skills/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SBuntingCompiledPortfolio/tags/</loc>
+  </url>
+</urlset>
