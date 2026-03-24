@@ -6,12 +6,6 @@ Welcome to my portfolio! Here you'll find information about my skills, interests
 
 ---
 
-## Skills
-
-[View my skills →]({{< relref "/skills/" >}})
-
----
-
 ## Interests
 
 [View my interests →]({{< relref "/interests/" >}})
@@ -21,3 +15,10 @@ Welcome to my portfolio! Here you'll find information about my skills, interests
 ## Projects
 
 [View my projects →]({{< relref "/projects/" >}})
+
+---
+
+## Skills
+
+[View my skills →]({{< relref "/skills/" >}})
+
