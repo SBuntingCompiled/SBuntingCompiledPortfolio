@@ -6,4 +6,4 @@ title: Interests
 
 - [Linux]({{< relref "/interests/linux/" >}})
 - [Emacs]({{< relref "/interests/emacs/" >}})
-- [Home Lab]({{< relref "/interests/homelab/" >}})
+- [AI / Local LLM]({{< relref "/interests/local_llm/" >}})
