@@ -12,7 +12,7 @@
       <link>http://localhost:1313/interests/local_llm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/interests/local_llm/</guid>
-      <description>&lt;p&gt;Like many I utilize AI in my everyday workflows. However, I wanted to embark on a project&#xA;that would help me understand better what is going on under the hood, as well as get a&#xA;solid understanding of the difference between an LLM and agent. As I go through this&#xA;process I will try my best to document my learning and help explain to me how I define&#xA;these terms.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Like many I utilize AI in my everyday workflows. However, I wanted to embark on a project&#xA;that would help me understand better what is going on under the hood as well as get a&#xA;solid understanding of the difference between LLM vs agent. As I go through this&#xA;process I will try my best to document my learning and explain these terms.&lt;/p&gt;&#xA;&lt;p&gt;To start this journey off I elected to setup a Raspberry Pi 4 with Raspberry Pi OS Lite as&#xA;a headless setup is perfect for this. After getting the OS setup I decided to go with Ollama&#xA;which as an open source framework that lets you run LLMs. One of the models you can run that&#xA;works well on the Raspberry Pi is called &amp;ldquo;tinyllama&amp;rdquo;. So, for my first LLM I elected to go&#xA;with that and what you see below is how it looks when providing it a simple prompt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emacs</title>
