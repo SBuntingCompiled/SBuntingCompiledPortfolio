@@ -1,0 +1,47 @@
+// Darker tone + transparent/glassmorphism overrides
+
+// Semi-transparent sidebar header with blur
+.app-header {
+  background: rgba(10, 14, 19, 0.75) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+// Subtle transparent background on the main content area
+.app-container {
+  background: rgba(17, 23, 32, 0.6);
+}
+
+// Glassy post cards
+.posts-list-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  transition: background 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(63, 185, 80, 0.3);
+  }
+}
+
+// Glassy blockquotes
+blockquote {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-left-color: rgba(63, 185, 80, 0.6) !important;
+}
+
+// Transparent tag pills
+.tag {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+
+  &:hover {
+    background: rgba(63, 185, 80, 0.15) !important;
+    border-color: rgba(63, 185, 80, 0.4);
+  }
+}

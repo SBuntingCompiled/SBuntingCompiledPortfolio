@@ -32,3 +32,10 @@ theme = "m10c"
   description = " "
   menu_item_separator = " - "
   avatar = "images/avatar.jpg"
+
+  [params.style]
+    darkestColor = "#0a0e13"
+    darkColor = "#111720"
+    lightColor = "#8b949e"
+    lightestColor = "#cdd9e5"
+    primaryColor = "#3fb950"
