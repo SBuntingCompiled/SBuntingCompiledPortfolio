@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="/game/tetris.css">
+
+<h2 class="tetris-title">Play a Game</h2>
+<div class="tetris-wrapper" id="tetris-wrapper">
+  <canvas id="tetris-canvas"></canvas>
+
+  <div class="tetris-side">
+    <div class="tetris-panel">
+      <h3>NEXT</h3>
+      <canvas id="next-canvas"></canvas>
+    </div>
+    <div class="tetris-panel">
+      <h3>SCORE</h3>
+      <div class="value" id="score-display">0</div>
+    </div>
+    <div class="tetris-panel">
+      <h3>LEVEL</h3>
+      <div class="value" id="level-display">1</div>
+    </div>
+    <div class="tetris-panel">
+      <h3>LINES</h3>
+      <div class="value" id="lines-display">0</div>
+    </div>
+    <div class="tetris-panel">
+      <h3>HIGH SCORE</h3>
+      <div class="value" id="hiscore-display">0</div>
+    </div>
+    <div class="tetris-controls">
+      <span>&larr; &rarr;</span> MOVE<br>
+      <span>&uarr;</span> ROTATE<br>
+      <span>&darr;</span> SOFT DROP<br>
+      <span>SPACE</span> HARD DROP<br>
+      <span>P / ESC</span> PAUSE
+    </div>
+  </div>
+
+  <button class="tetris-sound-toggle" id="sound-toggle">SFX: ON</button>
+
+  <!-- Start overlay -->
+  <div class="tetris-overlay" id="start-overlay">
+    <h2>&gt; TETRIS _</h2>
+    <p>CRT TERMINAL v1.0</p>
+    <button class="tetris-btn" id="start-btn">START</button>
+  </div>
+
+  <!-- Pause overlay -->
+  <div class="tetris-overlay hidden" id="pause-overlay">
+    <h2>PAUSED</h2>
+    <p>PRESS P OR ESC TO RESUME</p>
+  </div>
+
+  <!-- Game Over overlay -->
+  <div class="tetris-overlay hidden" id="gameover-overlay">
+    <h2>GAME OVER</h2>
+    <p id="final-score-text">SCORE: 0</p>
+    <button class="tetris-btn" id="restart-btn">RESTART</button>
+  </div>
+</div>
+
+<script src="/game/tetris.js"></script>

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* ── Header Nav Links ──────────────────────────────────────── */
+.app-header-menu {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0.6rem;
+}
+
+.app-header-menu-item {
+  color: #0f0 !important;
+  text-shadow: 0 0 6px rgba(0, 255, 0, 0.3);
+  font-size: 1.2rem !important;
+  display: block !important;
+  border: 2px solid #0f0;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  width: 160px;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.app-header-menu-item:hover {
+  color: #fff !important;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+  background: rgba(0, 255, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+/* ── Header Site Title ─────────────────────────────────────── */
+.app-header-title {
+  font-family: 'Press Start 2P', monospace !important;
+  color: #0f0 !important;
+  font-size: 2rem !important;
+  text-shadow: 0 0 12px rgba(0, 255, 0, 0.5);
+  letter-spacing: 2px;
+}
+
+/* ── Avatar Border ─────────────────────────────────────────── */
+.app-header-avatar {
+  border-color: #0f0 !important;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+/* ── Dark Background Override ──────────────────────────────── */
+body {
+  background-color: #111 !important;
+  color: #ccc !important;
+}
+
+.app-container {
+  background-color: #111 !important;
+}
+
+.app-header {
+  background-color: #060606 !important;
+}
+
+/* ── Page Title (h1) ──────────────────────────────────────── */
+article > h1 {
+  text-align: center !important;
+  color: #0f0 !important;
+  font-family: 'Press Start 2P', monospace !important;
+  font-size: 2.2rem !important;
+  text-shadow: 0 0 12px rgba(0, 255, 0, 0.5);
+  border: 2px solid #0f0;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 12px rgba(0, 255, 0, 0.15);
+  margin: 1rem auto 1.5rem auto;
+  max-width: fit-content;
+}
+
+/* ── Post Title (single pages) ────────────────────────────── */
+.post-title {
+  text-align: center !important;
+  color: #0f0 !important;
+  font-family: 'Press Start 2P', monospace !important;
+  font-size: 2.2rem !important;
+  text-shadow: 0 0 12px rgba(0, 255, 0, 0.5);
+  border: 2px solid #0f0;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 12px rgba(0, 255, 0, 0.15);
+  margin: 1rem auto 1.5rem auto;
+  max-width: fit-content;
+}
+
+/* ── Content Links ────────────────────────────────────────── */
+.post-content a,
+.posts-list a {
+  color: #00e5ff !important;
+  text-shadow: 0 0 6px rgba(0, 229, 255, 0.3);
+}
+
+.post-content li {
+  font-size: 1.4rem !important;
+  margin-bottom: 0.5rem;
+}
+
+.post-content a:hover,
+.posts-list a:hover {
+  color: #fff !important;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+}
+
+/* ── Content Headings ─────────────────────────────────────── */
+.post-content h2 {
+  color: #0f0 !important;
+  font-size: 2.4rem !important;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+}
+
+.post-content h3 {
+  color: #0f0 !important;
+  font-size: 1.6rem !important;
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.3);
+}
+
+/* ── Body Text ────────────────────────────────────────────── */
+.post-content p,
+.post-content li {
+  color: #ccc !important;
+}
+
+/* ── Posts List (subpages) ────────────────────────────────── */
+.posts-list-item-title {
+  color: #00e5ff !important;
+  font-size: 1.2rem !important;
+  text-shadow: 0 0 6px rgba(0, 229, 255, 0.3);
+  text-decoration: none !important;
+}
+
+.posts-list-item-title:hover {
+  color: #fff !important;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+}
+
+.posts-list-item-description {
+  color: #080 !important;
+}
+
+/* ── Code Blocks ──────────────────────────────────────────── */
+.post-content code {
+  background: #0a0a0a !important;
+  color: #0f0 !important;
+  border: 1px solid #0a0;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+}
+
+.post-content pre {
+  background: #0a0a0a !important;
+  border: 1px solid #0a0;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.post-content pre code {
+  border: none;
+  padding: 0;
+}
+
+/* ── Horizontal Rules ─────────────────────────────────────── */
+.post-content hr {
+  border-color: #0a0 !important;
+}
+
+/* ── Post Metadata ────────────────────────────────────────── */
+.post-date,
+.post-read-time {
+  color: #080 !important;
+}
+
+/* ── Images ───────────────────────────────────────────────── */
+.post-content img {
+  border: 2px solid #0f0;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.15);
+}
